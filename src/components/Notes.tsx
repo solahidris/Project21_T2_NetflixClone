@@ -9,7 +9,9 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
       <ul className="list-inside list-disc">
         <p className="font-semibold">Project Description:</p>
         <li>This project is a simplified front-end clone of Netflix</li>
-        <li>It was created with ReactJS, Typescript, JavaScript, HTML and CSS.</li>
+        <li>
+          It was created with ReactJS, Typescript, JavaScript, HTML and CSS.
+        </li>
         <li>It uses TheMovieDB API to display movies </li>
         <li>and show details like genre, description and score.</li>
         <li>The data gets updated weekly</li>
@@ -23,19 +25,24 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
         <li>Take screenshots of netflix for model</li>
         <li>Register account on TMDB for API</li>
         <li>Make ENV to store API key</li>
+        <li>Coded Header</li>
+        <li>Insert Cover Art Image</li>
+        <li>Made Vignette Gradient Top & Bottom of Cover Art</li>
+        <li>Added Cover Art Title & Description & Button</li>
+        <li>Style Header Components</li>
+        <li>Install react-icons</li>
       </ol>
       <br />
       <ol className="list-inside list-decimal">
         <p className="font-semibold">Libraries used:</p>
         <li>npm install -D tailwindcss</li>
-        <li>-</li>
+        <li>npm install react-icons --save</li>
       </ol>
     </div>
   );
 };
 
 export default Notes;
-
 
 // Hi xxx@gmail.com,
 
