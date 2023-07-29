@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Notes from "./Notes";
 import HeaderCoverart from "./HeaderCoverart";
+import Cards from "./Cards";
 
 type HomeProps = {};
 
@@ -11,15 +12,7 @@ const Home: React.FC<HomeProps> = () => {
         <HeaderCoverart />
       
       {/* Content */}
-      <div className="text-white">
-        <p>New Releases</p>
-        <p>Continue Watching for User123</p>
-        <p>Popular on Netflix</p>
-        <p>Trending Now</p>
-        <p>Top 10 Movies in Malaysia Today</p>
-        <p>Top 10 TV Shows in Malaysia Today</p>
-        <p>Anime</p>
-      </div>
+        <Cards />
         <Notes />
     </div>
   );

@@ -1,6 +1,10 @@
 // Header.tsx
 
 import NetflixLogo from "../assets/netflixlogo.png";
+import { BiSearch } from "react-icons/bi";
+import { FaRegBell } from "react-icons/fa";
+import { BsPersonSquare } from "react-icons/bs";
+import { AiFillCaretDown } from "react-icons/ai";
 
 type HeaderProps = {};
 
@@ -21,11 +25,11 @@ const Header: React.FC<HeaderProps> = () => {
         </div>
             {/* Right Side Container */}
         <div className="flex text-[7px] items-center">
-          <button>🔍</button>
-          <button>Kids</button>
-          <button>🔔</button>
-          <button>👤</button>
-          <button>▼</button>
+          <button className="mr-2 text-[10px] "><BiSearch /></button>
+          <button className="mr-2">Kids</button>
+          <button className="mr-2"><FaRegBell /></button>
+          <button className="mr-1"><BsPersonSquare /></button>
+          <button><AiFillCaretDown /></button>
         </div>
       </div>
     </div>

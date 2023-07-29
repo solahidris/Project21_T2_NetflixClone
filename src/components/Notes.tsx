@@ -31,6 +31,7 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
         <li>Added Cover Art Title & Description & Button</li>
         <li>Style Header Components</li>
         <li>Install react-icons</li>
+        <li>Added Hard-Coded Cards</li>
       </ol>
       <br />
       <ol className="list-inside list-decimal">
