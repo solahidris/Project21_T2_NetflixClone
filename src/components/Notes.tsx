@@ -32,12 +32,20 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
         <li>Style Header Components</li>
         <li>Install react-icons</li>
         <li>Added Hard-Coded Cards</li>
+        <li>Test & See API Data</li>
+        <li>Install axios</li>
+        <li>Make custom Hooks for each Card Label</li>
+        <li>Test display 2 movies on each Label</li>
+        <li>Make new page for each movie and display movie details</li>
+        <li>Install react router dom for paging</li>
       </ol>
       <br />
       <ol className="list-inside list-decimal">
         <p className="font-semibold">Libraries used:</p>
         <li>npm install -D tailwindcss</li>
         <li>npm install react-icons --save</li>
+        <li>npm install axios</li>
+        <li>npm install react-router-dom</li>
       </ol>
     </div>
   );

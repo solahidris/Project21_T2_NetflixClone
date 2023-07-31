@@ -1,3 +1,7 @@
+// Home.tsx
+
+import React from "react";
+
 import Header from "./Header";
 import Notes from "./Notes";
 import HeaderCoverart from "./HeaderCoverart";
@@ -6,14 +10,13 @@ import Cards from "./Cards";
 type HomeProps = {};
 
 const Home: React.FC<HomeProps> = () => {
+
   return (
     <div className="bg-black min-h-[100vh]">
-        <Header />
-        <HeaderCoverart />
-      
-      {/* Content */}
-        <Cards />
-        <Notes />
+      <Header />
+      <HeaderCoverart />
+      <Cards />
+      <Notes />
     </div>
   );
 };
