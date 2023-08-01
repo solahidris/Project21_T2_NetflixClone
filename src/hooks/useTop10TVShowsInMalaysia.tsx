@@ -20,7 +20,7 @@ const useTop10TVShowsInMalaysia = () => {
         `https://api.themoviedb.org/3/tv/top_rated?api_key=${apikey}`
       );
       const top10TVShows = response.data.results
-        .slice(0, 2)
+        .slice(0, 10)
         .map((show: any) => ({
           id: show.id,
           title: show.name,

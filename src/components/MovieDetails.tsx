@@ -40,30 +40,29 @@ const MovieDetails: React.FC = () => {
   return (
     <div className="bg-black min-h-[100vh] text-white">
       <Header />
-      <div className="px-5 pt-16 flex flex-col">
+      <div className="px-5 pt-16 flex flex-col lg:pt-40">
         {movieDetails ? (
           <>
             <div className="flex justify-center">
               <img
                 src={`https://image.tmdb.org/t/p/w500${movieDetails.poster_path}`}
                 alt={movieDetails.title}
-                className="w-60 lg:w-96 rounded object-cover rounded-xl"
+                className="w-60 lg:w-96 rounded object-cover rounded-xl mb-5"
               />
             </div>
-            <div className="flex flex-col px-5 lg:px-60 pb-60 gap-4">
+            <div className="flex flex-col px-5 lg:px-60 pb-60 gap-4 items-center">
               <div className="flex">
-                <h1 className="font-semibold text-3xl text-black bg-white px-5 py-2 rounded text-center">
+                <h1 className="font-semibold text-3xl text-black bg-white px-5 py-2 rounded text-center lg:w-[600px]">
                   {movieDetails.title}
                 </h1>
               </div>
               <p className="text-sm">Rating: {movieDetails.vote_average}</p>
-              <div className="bg-white/10 p-4 text-sm rounded-xl">
+              <div className="bg-white/10 p-4 text-sm rounded-xl lg:w-[600px]">
                 <p className="indent-8 leading-6">{movieDetails.overview}</p>
               </div>
               <p className="text-xs">
                 Release Date: {movieDetails.release_date}
               </p>
-              {/* Add more details as needed */}
             </div>
           </>
         ) : (

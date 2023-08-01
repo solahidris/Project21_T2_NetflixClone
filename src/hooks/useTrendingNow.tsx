@@ -20,7 +20,7 @@ const useTrendingNow = () => {
         `https://api.themoviedb.org/3/trending/movie/week?api_key=${apikey}`
       );
       const trendingMovies = response.data.results
-        .slice(0, 2)
+        .slice(0, 10)
         .map((movie: any) => ({
           id: movie.id,
           title: movie.title,

@@ -20,7 +20,7 @@ const usePopularOnTMDb = () => {
         `https://api.themoviedb.org/3/movie/popular?api_key=${apikey}`
       );
       const popularMovies = response.data.results
-        .slice(0, 2)
+        .slice(0, 10)
         .map((movie: any) => ({
           id: movie.id,
           title: movie.title,

@@ -19,7 +19,7 @@ const useAnime = () => {
         const response = await axios.get(
           `https://api.themoviedb.org/3/discover/movie?api_key=${apikey}&with_genres=16`
         );
-        const anime = response.data.results.slice(0, 2).map((movie: any) => ({
+        const anime = response.data.results.slice(0, 10).map((movie: any) => ({
           id: movie.id,
           title: movie.title,
           poster_path: `https://image.tmdb.org/t/p/w500${movie.poster_path}`,

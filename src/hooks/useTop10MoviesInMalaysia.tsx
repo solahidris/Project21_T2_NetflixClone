@@ -20,7 +20,7 @@ const useTop10MoviesInMalaysia = () => {
         `https://api.themoviedb.org/3/movie/top_rated?api_key=${apikey}`
       );
       const top10Movies = response.data.results
-        .slice(0, 2)
+        .slice(0, 10)
         .map((movie: any) => ({
           id: movie.id,
           title: movie.title,
