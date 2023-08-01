@@ -1,4 +1,4 @@
-// Cards.tsx
+// MovieCategory.tsx
 
 import useNewReleases from "../hooks/useNewReleases";
 

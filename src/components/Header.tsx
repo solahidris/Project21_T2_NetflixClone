@@ -5,6 +5,7 @@ import { BiSearch } from "react-icons/bi";
 import { FaRegBell } from "react-icons/fa";
 import { BsPersonSquare } from "react-icons/bs";
 import { AiFillCaretDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 type HeaderProps = {};
 
@@ -17,8 +18,8 @@ const Header: React.FC<HeaderProps> = () => {
             {/* Left Side Container */}
         <div className="flex items-center bg-red-3000 text-[7px] gap-2">
           <img src={NetflixLogo} alt="netflixlog" className="w-24 " />
-          <button className="font-bold">Home</button>
-          <button>TV Shows</button>
+          <Link to={"/"}><button className="font-bold">Home</button></Link>
+          <Link to={"/movie/:id"}><button>TV Shows</button></Link>
           <button>Movies</button>
           <button>New & Popular</button>
           <button>My List</button>
