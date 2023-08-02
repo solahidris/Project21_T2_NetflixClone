@@ -8,7 +8,7 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
   const [displayNotes, setDisplayNotes] = useState(false);
 
   return (
-    <div className="pb-20 flex justify-center">
+    <div className="pb-20 flex flex-col justify-center">
 
       <div className="flex justify-center mt-40">
         <button onClick={()=>(setDisplayNotes(!displayNotes))} className="text-white py-3 px-6 text-xs rounded-lg border border-slate-900 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950">
