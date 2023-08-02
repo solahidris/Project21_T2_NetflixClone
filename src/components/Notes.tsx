@@ -55,6 +55,7 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
           <li>Make Movie category page to display category from Header</li>
           <li>Connect all pages</li>
           <li>Check & Fix for Desktop Layout</li>
+          <li>Fixed some more layouts</li>
         </ol>
         <br />
         <ol className="list-inside list-decimal">
