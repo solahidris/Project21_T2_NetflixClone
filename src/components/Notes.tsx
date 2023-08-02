@@ -14,7 +14,7 @@ const Notes: React.FC<NotesProps> = (): JSX.Element => {
         <button onClick={()=>(setDisplayNotes(!displayNotes))} className="text-white py-3 px-6 text-xs rounded-lg border border-slate-900 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-950">
           {displayNotes ? "Hide Code Documentation" : "Show Code Documentation"}
         </button>
-        <span className="h-2 w-2 ml-[-10px] relative animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+        <span className="h-[5px] w-[5px] ml-[-10px] relative animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
       </div>
 
       {displayNotes === true && <div className="text-xs bg-gradient-to-tr from-emerald-200 via-sky-200 to-violet-300 border border-4 drop-shadow-lg border-sky-500/30 rounded p-5 my-10 mx-20">

@@ -19,7 +19,7 @@ const Cards: React.FC<CardsProps> = () => {
 
   return (
     // This code here. i want it just slightly covering 
-    <div className="mt-[-80px] lg:mt-[-160px] relative z-50">
+    <div className="mt-[-40px] lg:mt-[-160px] relative z-50">
       <div className="text-white p-6 lg:text-3xl lg:pb-6">
         <p className="font-bold pb-2">New Releases</p>
         <div className="flex gap-2 overflow-x-auto">
