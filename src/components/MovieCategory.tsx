@@ -42,7 +42,7 @@ const MovieCategory: React.FC<MovieCategoryProps> = () => {
             <img
               src={movie.poster_path}
               alt={movie.title}
-              className="w-48 lg:w-[384px] rounded object-cover"
+              className="w-40 lg:w-[384px] rounded object-cover"
             />
           </Link>
         ))}
